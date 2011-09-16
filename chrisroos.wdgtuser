@@ -12,21 +12,17 @@
 		<key>ContentSplitViewConfig</key>
 		<integer>8</integer>
 		<key>SplitViewConfig</key>
-		<integer>3</integer>
-		<key>_collapsingFrameDimension</key>
-		<real>0.0</real>
+		<integer>1</integer>
 		<key>_indexOfCollapsedView</key>
 		<integer>0</integer>
-		<key>_percentageOfCollapsedView</key>
-		<real>0.0</real>
 		<key>sizes</key>
 		<array>
-			<string>{{0, 0}, {759, 450}}</string>
-			<string>{{0, 460}, {759, 217}}</string>
+			<string>{{0, 0}, {759, 402}}</string>
+			<string>{{0, 412}, {759, 265}}</string>
 		</array>
 	</dict>
 	<key>ContentViewType</key>
-	<integer>2</integer>
+	<integer>0</integer>
 	<key>Dashboard Widget Prefs</key>
 	<dict>
 		<key>id</key>
@@ -52,16 +48,23 @@
 		<key>rosetta</key>
 		<false/>
 	</dict>
+	<key>DeploymentOptions</key>
+	<dict>
+		<key>Destination</key>
+		<string>localhost.default</string>
+		<key>EmailToNotifyAddress</key>
+		<string>chris.roos@headshift.com</string>
+		<key>enableSimulation</key>
+		<true/>
+		<key>simulatedHost</key>
+		<string>seagul-mac.local</string>
+	</dict>
 	<key>Design time language</key>
 	<string>en.lproj</string>
 	<key>MainSplitViewGeometry</key>
 	<dict>
-		<key>_collapsingFrameDimension</key>
-		<real>0.0</real>
 		<key>_indexOfCollapsedView</key>
 		<integer>0</integer>
-		<key>_percentageOfCollapsedView</key>
-		<real>0.0</real>
 		<key>sizes</key>
 		<array>
 			<string>{{0, 0}, {244, 698}}</string>
@@ -73,19 +76,15 @@
 	<key>NavigatorSplitViewGeometry</key>
 	<dict>
 		<key>ContentSplitViewConfig</key>
-		<integer>9</integer>
+		<integer>5</integer>
 		<key>SplitViewConfig</key>
-		<integer>3</integer>
-		<key>_collapsingFrameDimension</key>
-		<real>0.0</real>
+		<integer>1</integer>
 		<key>_indexOfCollapsedView</key>
 		<integer>0</integer>
-		<key>_percentageOfCollapsedView</key>
-		<real>0.0</real>
 		<key>sizes</key>
 		<array>
-			<string>{{0, 0}, {246, 361}}</string>
-			<string>{{0, 371}, {246, 306}}</string>
+			<string>{{0, 0}, {246, 352}}</string>
+			<string>{{0, 362}, {246, 315}}</string>
 		</array>
 	</dict>
 	<key>Objects view expanded items</key>
@@ -114,5 +113,15 @@
 	<array>
 		<integer>2</integer>
 	</array>
+	<key>Widget</key>
+	<dict>
+		<key>Objects view last selections</key>
+		<array/>
+		<key>Visible StackLayout Views</key>
+		<array>
+			<string>front</string>
+			<string>body</string>
+		</array>
+	</dict>
 </dict>
 </plist>
